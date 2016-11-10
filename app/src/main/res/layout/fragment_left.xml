@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/id_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#ffff0000"
+        android:dividerHeight="10dp" />
+
+    <RelativeLayout
+        android:id="@+id/re_left_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_bg">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:id="@+id/tv_head_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="32dp"
+                android:layout_toRightOf="@+id/image_title_left"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blue">#4893F2</color>
+    <color name="blue_bg">#4B9AFF</color>
+    <color name="defult_color">#20000000</color>
+
+</resources>
